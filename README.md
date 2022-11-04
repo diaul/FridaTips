@@ -11,7 +11,7 @@ onEnter(log, args, state) {
   Java.perform( function () {
     var String = Java.use("java.lang.String");
     var my_var = Java.cast(ptr(ptr_my_var), String);
-    log(prompt);
+    log(my_var);
   });
 },
 ```
